@@ -1,0 +1,49 @@
+.hr {
+    border: 1px solid #262323;
+    width: 97%;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 20px 30px 30px 30px
+}
+
+.copyright h1 {
+    font-size: 14px;
+}
+
+.contact div {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contact div img {
+    width: 30px;
+    border:10px solid #262323;
+    border-radius: 100%;
+    padding: none;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.contact div img:hover {
+    opacity: 70%;
+}
+
+.contact h2 {
+    margin-top: 15px;
+    font-size: 14px;
+    text-align: end;
+}
+
+@media (max-width: 576px) {
+    .copyright h1 {
+        font-size: 11px;
+    }
+
+    .contact h2 {
+        font-size: 11px;
+    }
+  }

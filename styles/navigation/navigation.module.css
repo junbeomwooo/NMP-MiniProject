@@ -1,0 +1,44 @@
+/** 한 가지 컴포넌트를 적용시킬 때
+    (중요) 파일이름.module.css
+    
+    아래와 같이 할당하면 className이 랜덤으로 할당이 되기때문에
+    className이 중복되거나 충돌될 확률이 없어짐
+
+    1. 사용할 컴포넌트에서 import 
+    ex) import styles from '../styles/navigation.module.css';
+    2. JS의 객체와 같이 값을 전달
+     ex) <nav className={styles.nav}></nav>
+    
+
+*/
+
+.nav {
+  width: 100%;
+  position: fixed;
+  height: 50px;
+  z-index: 1000;
+}
+
+.nav div {
+  width: 100%;
+  position: absolute;
+  height: 50px;
+  z-index: -10;
+  background-color: black;
+  opacity: 75%;
+}
+
+.nav a:hover {
+  text-decoration: none;
+}
+
+.nav a h1 {
+  text-decoration: none;
+  padding: 15px 0 0 55px;
+  font-weight: 600;
+}
+
+.nav hr {
+  margin-top: 15px;
+  border: 1px solid #262323;
+}

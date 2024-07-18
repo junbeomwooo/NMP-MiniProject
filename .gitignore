@@ -1,0 +1,7 @@
+# .gitignore
+.next
+/node_modules
+/out
+.DS_Store
+*.pem
+next-env.d.ts
