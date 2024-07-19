@@ -1,4 +1,4 @@
-import { API_URL } from "../../../(home)/page";
+import { API_URL } from "../../../constant";
 import About from "../../../../components/about/about";
 
 /** generateMetadata()

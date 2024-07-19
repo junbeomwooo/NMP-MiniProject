@@ -12,12 +12,12 @@
 import Movie from "../../components/movie/movie";
 import styles from '../../styles/home/home.module.css';
 import SwiperComponent from "../../components/swiper/swiper";
+import { API_URL } from "../constant";
 
 // export const metadata = {
 //   title: "Home",
 // };
 
-export const API_URL = "https://nomad-movies.nomadcoders.workers.dev/movies";
 
 /** Next.js는 기본 웹 fetch() API를 확장하여 서버의 각 요청이 자체 영구 캐싱 의미를 설정할 수 있도록 함. */
 async function getMoives() {
