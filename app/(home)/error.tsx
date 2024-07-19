@@ -22,7 +22,7 @@ export default function ErrorOMG() {
       }}
     >
       <img
-        src="/image/exclamation.png"
+        src="/Image/exclamation.png"
         alt="error"
         style={{ width: "100px", margin: "-100px 0 20px 0" }}
       />
