@@ -51,13 +51,9 @@
     font-size: 20px;
   }
 
-  .info h4 {
-   
-  }
-
-
 .container .playlist .list {
   margin-top: 20px;
+  border: 1px solid black;
 }
 
 .container .playlist .list ul li {
@@ -104,4 +100,22 @@
   .container {
     padding: 0px 40px;
   }
+
+  .info h3 {
+    font-size: 16px;
+  }
+
+  .info h4 {
+    font-size: 16px;
+  }
+
+  .container .playlist .list ul li {
+    font-size: 15px;
+  }
+
+  .info {
+    height: 50px;
+    padding-top: 5px;
+  }
+
 }
