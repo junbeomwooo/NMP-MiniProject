@@ -47,7 +47,7 @@ export default function About({ movie, similar, credit, video }) {
           </div>
           <div className={styles.production}>
             {movie.production_companies.map((v, i) => {
-              return v.logo_path !== "https://Image.tmdb.org/t/p/w300null" ? (
+              return v.logo_path !== "https://image.tmdb.org/t/p/w300null" ? (
                 <img key={i} src={v?.logo_path} alt={v.title} />
               ) : (
                 <img key={i} src="/Image/none.png" alt={v.title} />
