@@ -35,7 +35,8 @@ export default function ErrorOMG() {
           fontSize: "16px",
         }}
       >
-        There was a problem processing the request. Please try again. <br />To report an issue,
+        There was a problem processing the request. Please try again. <br />
+        To report an issue,
         <span>
           <Link
             href={"https://github.com/junbeomwooo"}
