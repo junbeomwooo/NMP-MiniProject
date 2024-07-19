@@ -23,7 +23,7 @@ export default function ErrorOMG() {
     >
       <img
         src="/image/exclamation.png"
-        alt="github"
+        alt="error"
         style={{ width: "100px", margin: "-100px 0 20px 0" }}
       />
       <h1 style={{ fontSize: "40px" }}>Something went wrong</h1>
