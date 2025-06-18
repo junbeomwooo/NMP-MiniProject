@@ -20,6 +20,8 @@ I used Next.js and TypeScript, and it is deployed on Vercel.
 
 •	Design : Adobe Illustrator, Adobe Photoshop
 
+※ This project was built following the "Next.js" course by Nomad Coders, with some customizations in functionality and design
+
 <br /> <br />
 ## Project structure  
 
