@@ -9,9 +9,9 @@
 I developed a movie chart site named “NMP” that showcases popular recent movies as part of a mini-project.
 
 I used Next.js and TypeScript, and it is deployed on Vercel.
-<small style="color: gray;">
-This project was built following the "Next.js" course by Nomad Coders, with some customizations in functionality and design
-</small>
+
+> _This project was built following the "Next.js" course by Nomad Coders, with some customizations in functionality and design._
+
 <br /> <br />
 ## Development Environment
 •	Client : HTML, CSS, Next.js, TypeScript
@@ -21,7 +21,6 @@ This project was built following the "Next.js" course by Nomad Coders, with some
 •	Deployment environment : Vercel
 
 •	Design : Adobe Illustrator, Adobe Photoshop
-
 
 <br /> <br />
 ## Project structure  
